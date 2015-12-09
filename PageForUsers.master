@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="PageForUsers.master.cs" Inherits="PageForUsers" %>
+<!DOCTYPE html>
+<!--
+	Interphase by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Minds Solutions</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+            <link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+            <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html">Mind Solutions</a></h1>
+				<nav id="nav">
+					<ul>
+                        <li><a href="">Perfil</a>
+                            <ul>
+                                <li><a href="PerfilMs.aspx">Perfil</a></li>
+                                <li><a href="#">Editar Perfil</a></li>
+                                <li><a href="#">Cerrar Session</a></li>
+                            </ul>
+                        </li>                            					
+					</ul>
+				</nav>
+			</header>
+		        <asp:ContentPlaceHolder ID="cphPrincipal" runat="server">
+                </asp:ContentPlaceHolder>
+            <p>
+                <br />
+            </p>
+            <!-- Footer -->
+            <!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<section class="4u 6u(medium) 12u$(small)">
+							<h3>Nuestro Trabajo</h3>
+							<p>Trabajamos siempre pensando en lo mas moderno</p>
+							<ul class="alt">
+								<li><a href="#">Desarrollos en Java</a></li>
+								<li><a href="#">Desarrollos en ASP.NET y C#</a></li>
+								<li><a href="#">Desarrollos en Android</a></li>
+								<li><a href="#">Tecnologias en Redes</a></li>
+							</ul>
+						</section>
+						<section class="4u 6u$(medium) 12u$(small)">
+							<h3>Conocenos</h3>
+							<p>Ven y Conocenos un poco mas</p>
+							<ul class="alt">
+								<li><a href="#">¿Quienes Somos</a></li>
+								<li><a href="#">¿Donde Estamos?</a></li>
+								<li><a href="#">¿Cual es nuestra experiencia?</a></li>
+								<li><a href="#">Nuestra Politica</a></li>
+							</ul>
+						</section>
+						<section class="4u$ 12u$(medium) 12u$(small)">
+							<h3>Socializa con nosotros</h3>
+							<ul class="icons">
+								<li><a href="#" class="icon rounded fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon rounded fa-pinterest"><span class="label">Pinterest</span></a></li>
+								<li><a href="#" class="icon rounded fa-google-plus"><span class="label">Google+</span></a></li>
+								<li><a href="#" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="tabular">
+								<li>
+									<h3>Paises</h3>
+									Ecuador y Venezuela<br>
+									y creciendo...
+								</li>
+								<li>
+									<h3>Correo</h3>
+									<a href="#">MindSolutionsCorp@gmail.com</a>
+								</li>
+								<li>
+									<h3>Celular</h3>
+									(09) 6709-8890
+								</li>
+							</ul>
+						</section>
+					</div>
+					<ul class="copyright">
+						<li>&copy; Todos los derechos reservados.</li>
+						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+					</ul>
+				</div>
+			</footer>
+
+	    </form>
+
+	</body>
+</html>
